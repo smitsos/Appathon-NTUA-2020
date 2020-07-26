@@ -11,5 +11,5 @@ Internet and Applications project 2020
 ## Υλοποίηση
  Για την υλοποίηση θα χρησιμοποιήσουμε τα ακόλουθα:
  - HTML
- - Javascript (κυρίως ReactJS και Material UI https://material-ui.com/ )
- - CSS
+ - CSS  
+ - Javascript
