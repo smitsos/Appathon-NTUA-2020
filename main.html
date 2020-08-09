@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrAZeSr4vP3YmIi6yDRELkiDS67QhRRPI"></script>
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+    
+    
+  </head>
+
+  <body>
+    <div id = "content">
+      <div id ="container">
+        <img src="images/background.jpg" alt="Snow" style="width:100%">
+        <button class="btn" type="button" onclick="readPathNames()" >Θέλω να βρω Λεωφορείο</button><br><br>
+      </div>
+    </div> 
+        
+    <div id = "one">
+      <h1>Δες όλες τις γραμμές Λεωφορείων</h1>
+      <form onsubmit="getPathListData(); return false;" >
+        <label for="pathList">Διάλεξε Διαδρομή:</label>
+        <select name="pathList" id="path_list"></select> <br><br>
+        <input type="submit"></input><br><br>
+      </form>
+    </div>
+  
+    <div id = output-wrapper>
+          <div id = "plirofories"> </div>
+          <div id = "lineName"> </div>
+          <div id = "startingPoint"> </div>
+          <div id = "destination"> </div>
+          <div id = "travelTime"> </div>
+          <div id = "starting_weather"> </div>
+          <div id = "destination_weather"> </div>
+    </div>
+    
+    <div id="map-canvas"></div>
+    <script src = interaction.js></script>
+      
+</body>
+</html>

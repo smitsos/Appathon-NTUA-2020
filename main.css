@@ -1,0 +1,117 @@
+#one {
+height: auto;
+align-content: center;
+text-align: center;
+margin: auto;
+width: 50%;
+display: block;
+}
+
+#map-canvas {
+height: 800px;
+align-content: center;
+width: 100%;  
+}
+
+select{
+width: 70%;
+padding: 16px 20px;
+border: none;
+border-radius: 4px;
+background-color: #f1f1f1;
+color: black;
+font-size: 14px;
+font-weight: normal;
+padding: 16px 30px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
+#cover {
+width: 100%;
+height: auto;
+background-image: url('images/background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 50%;
+padding: 0;
+}
+
+#content{
+display: block;
+max-width: 50%;
+margin: auto;
+align-content: center;
+
+}
+#container {
+position: relative;
+width: 100%;
+max-width: 800px;
+}
+
+#container img {
+width: 100%;
+height: auto;
+}
+
+#container .btn {
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #d40000;
+color: white;
+font-size: 16px;
+font-weight: bold;
+padding: 16px 30px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
+form{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: monospace;
+}
+
+#output-wrapper, #plirofories, #lineName, #startingPoint, 
+#destination, #traveltime, #starting_weather, #destination_weather {
+
+font-size: 20px;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 16px 30px;
+border: none;
+border-radius: 5px;
+text-align: center;
+}
+
+#container .btn:hover {
+background-color: black;
+color: white;
+}
+
+input {
+background-color: #09ff009e; /* Green */
+border: none;
+color: black;
+font-size: 16px;
+font-weight: bold;
+padding: 16px 30px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+width: 200px;
+}
+
+input:hover {
+background-color: black;
+color: white;
+}
